@@ -1,0 +1,4 @@
+sales_id,region,product,units_sold,Revenue,ename,age,sales_type,customer_feedback,hours_worked,helth_status
+601,North,Electronics,50,150000,John,28,Online,Excellent,45,Excellent
+602,South,Furniture,25,125000,Maria,32,In-Store,Good,40,Good
+603,East,Electronics,35,105000,Michael,30,Online,Excellent,42,Good

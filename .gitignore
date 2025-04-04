@@ -1,0 +1,10 @@
+# Ignore Java class files
+*.class
+
+# Ignore executables (common Linux/Mac pattern)
+*.exe
+*.out
+*.o
+
+# Ignore node_modules folder
+node_modules/

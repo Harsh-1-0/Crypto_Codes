@@ -1,0 +1,11 @@
+patient_id,age,gender,blood_pressure,heart_rate,cholesterol_level,diagnosis,smoking_status,exercise_frequency,follow_up,medication
+101,45,M,120/80,72,180,Healthy,Non-smoker,3 times/week,Yes,Metformin
+102,52,F,130/85,80,200,Pre-diabetes,Smoker,1 time/week,No,Aspirin
+103,37,M,140/90,88,220,Hypertension,Smoker,2 times/week,Yes,
+104,29,F,110/70,65,170,Healthy,Non-smoker,Daily,Yes,Paracetamol
+105,60,M,150/95,90,250,Diabetes,Non-smoker,None,No,
+106,40,F,125/82,75,190,Healthy,Smoker,3 times/week,Yes,Ibuprofen
+107,49,M,135/88,85,210,Pre-diabetes,Smoker,2 times/week,Yes,
+108,55,F,145/92,92,230,Hypertension,Non-smoker,1 time/week,No,Amlodipine
+109,33,M,115/75,68,160,Healthy,Non-smoker,Daily,Yes,Metformin
+110,42,F,128/85,77,195,Healthy,Smoker,3 times/week,Yes,Paracetamol

@@ -1,0 +1,19 @@
+digraph "HackPortal System CFD" {
+	rankdir=TB size=10 splines=polyline
+	User [label=User fillcolor="#ffcc00" shape=box style=filled]
+	GoogleAuth [label="Google Authentication" fillcolor="#005f99" fontcolor=white shape=box style=filled]
+	TeamMgmt [label="Team Management" fillcolor="#005f99" fontcolor=white shape=box style=filled]
+	SoftwareReview [label="Software Review System" fillcolor="#005f99" fontcolor=white shape=box style=filled]
+	HardwareReview [label="Hardware Review System" fillcolor="#005f99" fontcolor=white shape=box style=filled]
+	TeamsDB [label="Teams Database" fillcolor="#993366" fontcolor=white shape=box style=filled]
+	SoftwareDB [label="Software Reviews Database" fillcolor="#993366" fontcolor=white shape=box style=filled]
+	HardwareDB [label="Hardware Reviews Database" fillcolor="#993366" fontcolor=white shape=box style=filled]
+	User -> GoogleAuth [label=Authenticates]
+	GoogleAuth -> User [label="Grants Access"]
+	User -> TeamMgmt [label="Manages Team"]
+	TeamMgmt -> TeamsDB [label="Stores & Retrieves Data"]
+	User -> SoftwareReview [label="Submits Software Review"]
+	SoftwareReview -> SoftwareDB [label="Stores Data"]
+	User -> HardwareReview [label="Submits Hardware Review"]
+	HardwareReview -> HardwareDB [label="Stores Data"]
+}

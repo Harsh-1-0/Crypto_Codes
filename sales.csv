@@ -1,0 +1,4 @@
+"sales_id","region","product","units_sold","Revenue","ename","age","sales_type","customer_feedback","hours_worked","helth_status","sales_category","profit_margin"
+601,"North","Electronics",50,150000,"John",28,"E-Commerce","Excellent",45,"Excellent","High Volume",3000
+602,"South","Furniture",25,125000,"Maria",32,"In-Store","Good",40,"Good","Low Volume",5000
+603,"East","Electronics",35,105000,"Michael",30,"E-Commerce","Excellent",42,"Good","Low Volume",3000
